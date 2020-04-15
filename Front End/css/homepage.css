@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+.main{
+	margin-top: 140px;
+}
+
+.tot-logo{
+	display: block;
+	margin-left: 35%;
+	width: 25%;
+}
+
+.find{
+	border: 0;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	margin-top: 2%;
+}
+
+.botao {
+	box-sizing: border-box;
+	left: 41%;
+	position: relative;
+	width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+	.tot-logo{
+		width: 50%;
+		margin-left: 22%;
+	}
+
+	.botao{
+		width: 100%;
+		left: 33%;
+	}
+}
