@@ -2,7 +2,10 @@
 
 ## Como executar o site:
 1º Instalar a pasta "mysite"
+
 2º Na linha de comandos, 
+
+3º Para ligar o server insira o código: python manage.py runserver
 
 ## Objetivo:
 O site This or That tem como principal objetivo a construção de um jogo em que o utilizador escolha a imagem que prefere entre duas oferecidas. O site tem tanto jogos criados pelos criadores, tanto jogos criados pelos utilizadores (como fossem jogos da comunidade). A plataforma é simples e facíl de utilizar, possibilitanto o utilizador jogar sem dificuldades.
