@@ -1,0 +1,54 @@
+.card {
+    background-color: #1f283d;
+    opacity: 90%;
+}
+
+.container {
+    color: white;
+    width: 430px;
+}
+
+
+.imagem {
+    width: 40%;
+}
+
+.buttons {
+    padding: 15px 0;
+}
+
+.btn{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 2px #999;
+    background-color: rgb(6, 78, 136);
+    border: none;
+    border-radius: 15px;
+
+        /*  antigo */
+    box-sizing: content-box;
+    height: auto;
+    line-height: 1;
+    padding: 15px 20px;
+    width: auto;
+    display: inline-block;
+    }
+          
+.btn:hover {
+    background-color:rgb(3, 63, 112);
+}
+          
+.btn:active {
+    background-color:rgb(2, 48, 87);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.button:first-child {
+    background: red;
+}

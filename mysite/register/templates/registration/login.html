@@ -1,0 +1,41 @@
+{% extends "main/base.html" %}
+{% block content %}
+{% load static %}
+
+
+{% load crispy_forms_tags %}
+
+<link rel="stylesheet" href="{% static 'main/css/login.css'%}">
+<!-- MAIN -->
+      <!-- Full Page Intro -->
+  <main>
+    <div class="container">
+      <div class="card border-0 shadow my-5">
+        <div class="card-body">
+          <!--Header-->
+          <div class="text-center">
+            <h3 class="white-text">
+            <i class="fa fa-user white-text"></i> Login</h3>
+            <hr class="hr-light">
+          </div>
+      <form method="POST" class="form-group">
+        {% csrf_token %}
+        <fieldset class="form-group">
+          {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+          <button class="btn btn-outline-success" type="submit" name="button">Login</button>
+          <small class="test-muted ml-2">
+            <a href="forgot.html" >Forgot Password?</a>
+          </small>
+        </div>
+      </form>
+      <div class="border-top pt-3">
+        <small class="text-muted">
+          Dont't have an Account? <a class="ml-2" href="{% url 'register' %}">Register</a>
+        </small>
+      </div>
+    </div>
+  </main>
+
+{% endblock content %}

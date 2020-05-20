@@ -1,0 +1,18 @@
+.mt-0, .my-0 {
+    margin-top: 0 !important;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card {
+    background-color: #1f283d;
+    opacity: 90%;
+}
+
+.container {
+    color: white;
+}
+
+.h1 {
+    text-align: center;
+}
