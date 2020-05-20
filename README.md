@@ -6,6 +6,7 @@ O site This or That tem como principal objetivo a construção de um jogo em que
 ## Ferramentas de Trabalho:
 ### Editor de código fonte:
 Front end - Visual Studio Code
+
 Back end - Atom
 ### Sistema para guardar e gerir o projeto:
 GitHub
