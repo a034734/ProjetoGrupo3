@@ -1,4 +1,7 @@
-# Projeto do Grupo 3
+# Projeto do Grupo 3: This or That
+
+## Identificação:
+
 Alexandre Nunes - A035528
 
 Daniel Moreira - A034734
