@@ -3,7 +3,7 @@
 ## Como executar o site:
 1º Instalar a pasta "mysite"
 
-2º Na linha de comandos, ativar o Virtual Environment através do código: Nome_do_virtualenv\Script\Activate 
+2º Na linha de comandos, ativar o Virtual Environment através do código: Nome_do_virtualenv\Scripts\Activate 
 
 3º Para ligar o server entrar na pasta do projeto e inserir o código: python manage.py runserver
 
