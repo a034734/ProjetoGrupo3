@@ -23,31 +23,62 @@
 
 </head>
 <body style="background-image: url('img/fundo.jpg')"></body>
-    <div class="upload">
-        <div class="upload-files">
-        <header>
-        <p>
-        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
-        <span class="up">up</span>
-        <span class="load">load</span>
-        </p>
-        </header>
-        <div class="body" id="drop">
-        <i class="fa fa-file-text-o pointer-none" aria-hidden="true"></i>
-        <p class="pointer-none"><b>Drag and drop</b> files here <br /> or <a href="" id="triggerFile">browse</a> to begin the upload</p>
-               <input type="file" multiple="multiple" />
-        </div>
-        <footer>
-        <div class="divider">
-            <span><AR>FILES</AR></span>
-        </div>
-        <div class="list-files">
-        <!--   template   -->
-        </div>
-            <button class="importar">UPDATE FILES</button>
-        </footer>
-        </div>
+
+<header>
+    <!-- NAVBAR -->
+    <div class="inicio">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a href="homepage.html" class="navbar-brand">
+                <img src="img/Logo.png" class="logo" alt="ThisorThat">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="homepage.html" class="nav-item nav-link">Home</a>
+                    <a href="play.html" class="nav-item nav-link">Oficial Games</a>
+                    <a href="find.html" class="nav-item nav-link">Find People !</a>
+                    <a href="scoreboards.html" class="nav-item nav-link">Scoreboards</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="login.html" class="nav-item nav-link">Login</a>
+                    <a href="register.html" class="nav-item nav-link">Register</a>
+                </div>
+            </div>
+        </nav>
     </div>
+</header>
+    <main>
+        <div class="upload">
+            <div class="upload-files">
+                <header>
+                    <p>
+                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                    <span class="up">up</span>
+                    <span class="load">load</span>
+                    </p>
+                </header>
+                <div class="body" id="drop">
+                    <i class="fa fa-file-text-o pointer-none" aria-hidden="true"></i>
+                    <p class="pointer-none"><b>Drag and drop</b> files here <br /> or <a href="" id="triggerFile">browse</a> to begin the upload</p>
+                    <input type="file" multiple="multiple" />
+                </div>
+                <footer>
+                    <div class="divider">
+                        <span><AR>FILES</AR></span>
+                    </div>
+                    <div class="list-files">
+                    <!--   template   -->
+                    </div>
+                    <button class="importar">UPDATE FILES</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    
     
 
     <!-- SCRIPT -->
