@@ -1,11 +1,21 @@
 # Projeto do Grupo 3: This or That
 
 ## Como executar o site:
-1º Instalar a pasta "mysite"
+Windows
 
-2º Na linha de comandos, ativar o Virtual Environment através do código: Nome_do_virtualenv\Scripts\Activate 
+1º Download do Projeto "mysite";
 
-3º Para ligar o server entrar na pasta do projeto e inserir o código: python manage.py runserver
+2º Na linha de comandos, entrar no Diretório onde a pasta do Virtual Environment está inserida e a ativação é feita através do código: Nome_do_virtualenv\Scripts\Activate;
+
+3º Para executar o Projeto, entrar na respetiva pasta e inserir o código: python manage.py runserver;
+
+4º Usar o link dado na linhas de comandos e executa-lo num browser;
+
+5º Colocar "/home" à frente do link dado para acederem à Pagina Principal
+
+Para quaiquer dúvidas na instalação do Django/Python/Virtual Environment:
+https://djangoforbeginners.com/initial-setup/
+
 
 ## Objetivo:
 O site This or That tem como principal objetivo a construção de um jogo em que o utilizador escolha a imagem que prefere entre duas oferecidas. O site tem tanto jogos criados pelos criadores, tanto jogos criados pelos utilizadores (como fossem jogos da comunidade). A plataforma é simples e facíl de utilizar, possibilitanto o utilizador jogar sem dificuldades.
