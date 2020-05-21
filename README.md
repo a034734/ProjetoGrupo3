@@ -1,5 +1,10 @@
 # Projeto do Grupo 3: This or That
 
+## Pré-requisitos
+- Django
+- Python
+- Virtual Env
+
 ## Como executar o site:
 Windows
 
