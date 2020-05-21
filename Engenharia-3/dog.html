@@ -6,12 +6,28 @@
     <title>This or that</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/find.css">
+    <link rel="stylesheet" href="css/dog.css">
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: 'AIzaSyCUrTgvYDVHGfkFtPVatE4Cnmvs6ybCEBA',
+            authDomain: 'this-or-that-dogs.firebaseapp.com',
+            databaseURL: 'https://this-or-that-dogs.firebaseio.com',
+            projectId: 'this-or-that-dogs',
+            storageBucket: '',
+            messagingSenderId: '214191822750',
+            appId: '1:214191822750:web:fa6973b15e240941eb288f'
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
 </head>
 <body style="background-image: url('img/fundo.jpg')">
-    <header>
-        <!-- NAVBAR -->
+    <!--<header>
+        NAVBAR
         <div class="inicio">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <a href="homepage.html" class="navbar-brand">
@@ -23,17 +39,13 @@
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="homepage.html" class="nav-item nav-link active">Home</a>
-                        <a href="play.html" class="nav-item nav-link">Oficial Games</a>
+                        <a href="homepage.html" class="nav-item nav-link">Home</a>
+                        <a href="play.html" class="nav-item nav-link active">Oficial Games</a>
                         <a href="find.html" class="nav-item nav-link">Find People !</a>
                         <a href="scoreboards.html" class="nav-item nav-link">Scoreboards</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                     </div>
                     <div class="navbar-nav ml-auto">
-                        <form action="/action_page.php">
-                            <input type="text" placeholder="Search.." name="search">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
                         <a href="login.html" class="nav-item nav-link">Login</a>
                         <a href="register.html" class="nav-item nav-link">Register</a>
                     </div>
@@ -41,47 +53,28 @@
             </nav>
         </div>
     </header>
-        
+     -->    
     <!-- MAIN -->
     <main>                
         <div class="container">
-            <div class="card border-0 shadow my-5 ">
+            <div class="card border-0 shadow my-5">
                 <hr class="hr-light">
-                <img src="img/Logo.png" class="card-img-top mx-auto d-block" style="width: 40%; opacity: 100%;" alt="ThisorThat">
-              <div class="card-body p-5">
-                <!-- Full Page Intro -->
-                <div class="view">
-                    <!-- Mask & flexbox options-->
-                    <div class="mask rgba-black-light align-items-center">
-                    <!-- Content -->
-                    <div class="container">
-                        <!--Grid row-->
-                        <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-12 mb-4 white-text text-center">
-                            <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-                            <a href="find.html" class="btn mx-5" role="button" aria-pressed="true">Find People !</a>
-                            <hr class="hr-light">
-                            <a href="play.html" class="btn mx-5" role="button" aria-pressed="true">Play</a>
-                            <hr class="hr-light">
-                            <a href="scoreboards.html" class="btn mx-5" role="button" aria-pressed="true">Scoreboards</a>
-                        </div>
-                        <!--Grid column-->
-                        </div>
-                        <!--Grid row-->
-                    </div>
-                    <!-- Content -->
-                    </div>
-                    <!-- Mask & flexbox options-->
-                </div>
-              </div>
+                
+                <hr class="hr-light">
+                
             </div>
-          </div>
+        </div>
+        <div id="app"></div>
+        
+        <script src="js/dog.js"></script>
     </main>
 
     <!-- SCRIPT -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.9.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.9.0/umd/react-dom.production.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
 </body>
 </html>

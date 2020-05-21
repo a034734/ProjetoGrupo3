@@ -6,8 +6,8 @@
     <title>This or that</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/find.css">
 </head>
 <body style="background-image: url('img/fundo.jpg')">
     <header>
@@ -23,17 +23,13 @@
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="homepage.html" class="nav-item nav-link active">Home</a>
-                        <a href="play.html" class="nav-item nav-link">Oficial Games</a>
+                        <a href="homepage.html" class="nav-item nav-link">Home</a>
+                        <a href="play.html" class="nav-item nav-link active">Oficial Games</a>
                         <a href="find.html" class="nav-item nav-link">Find People !</a>
                         <a href="scoreboards.html" class="nav-item nav-link">Scoreboards</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                     </div>
                     <div class="navbar-nav ml-auto">
-                        <form action="/action_page.php">
-                            <input type="text" placeholder="Search.." name="search">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
                         <a href="login.html" class="nav-item nav-link">Login</a>
                         <a href="register.html" class="nav-item nav-link">Register</a>
                     </div>
@@ -45,38 +41,36 @@
     <!-- MAIN -->
     <main>                
         <div class="container">
-            <div class="card border-0 shadow my-5 ">
+            <div class="card border-0 shadow my-5">
                 <hr class="hr-light">
-                <img src="img/Logo.png" class="card-img-top mx-auto d-block" style="width: 40%; opacity: 100%;" alt="ThisorThat">
-              <div class="card-body p-5">
-                <!-- Full Page Intro -->
-                <div class="view">
-                    <!-- Mask & flexbox options-->
-                    <div class="mask rgba-black-light align-items-center">
-                    <!-- Content -->
-                    <div class="container">
-                        <!--Grid row-->
-                        <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-12 mb-4 white-text text-center">
-                            <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-                            <a href="find.html" class="btn mx-5" role="button" aria-pressed="true">Find People !</a>
-                            <hr class="hr-light">
-                            <a href="play.html" class="btn mx-5" role="button" aria-pressed="true">Play</a>
-                            <hr class="hr-light">
-                            <a href="scoreboards.html" class="btn mx-5" role="button" aria-pressed="true">Scoreboards</a>
-                        </div>
-                        <!--Grid column-->
-                        </div>
-                        <!--Grid row-->
+                <img src="img/play.png" class="card-img-top mx-auto d-block" style="width: 50%;" alt="ThisorThat">
+                <hr class="hr-light">
+                <div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="img/dog.png" style="width: 100%; height: 100%;" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Dogs</h5>
+                        <a href="dog.html" class="btn btn-primary">Play</a>
+                      </div>
                     </div>
-                    <!-- Content -->
+                    <div class="card">
+                        <img class="card-img-top" src="img/games.png" style="width: 100%; height: 100%;" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Games</h5>
+                        <a href="dog.html" class="btn btn-primary">Play</a>
+                      </div>
                     </div>
-                    <!-- Mask & flexbox options-->
+                    <div class="card">
+                        <img class="card-img-top" src="img/fruit.png" style="width: 100%; height: 100%;" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Fruit</h5>
+                        <a href="dog.html" class="btn btn-primary">Play</a>
+                      </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+            
+        </div>
     </main>
 
     <!-- SCRIPT -->
