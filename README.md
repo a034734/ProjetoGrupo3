@@ -33,6 +33,9 @@ Back end - Atom
 ### Sistema para guardar e gerir o projeto:
 GitHub
 
+### Editor de fotos e design:
+Photoshop
+
 ## Desenvolvedores do projeto
 
 Alexandre Nunes - A035528
