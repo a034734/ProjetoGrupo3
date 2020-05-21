@@ -1,0 +1,121 @@
+.card {
+  background-color: #1f283d;
+  padding: 30px;
+  color: white;
+  opacity: 98%;
+}
+
+.user-profile img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 24px;
+}
+  
+.user-details p {
+    font-size: 20px;
+}
+  
+.user-details {
+    float: left;
+    margin-top: 20px;
+    vertical-align: bottom;
+}
+.counts {
+    padding: 70px 0 60px;
+}
+  
+.counts .count-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+}
+  
+.counts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    color: #18d26e;
+    border-radius: 50px;
+}
+  
+.counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #fff;
+}
+  
+.counts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+
+.buttons {
+    padding: 15px 0;
+}
+
+.btn{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 2px #999;
+    background-color: rgb(6, 78, 136);
+    border: none;
+    border-radius: 15px;
+
+        /*  antigo */
+    box-sizing: content-box;
+    height: auto;
+    line-height: 1;
+    padding: 15px 20px;
+    width: auto;
+    display: inline-block;
+    }
+          
+.btn:hover {
+    background-color:rgb(3, 63, 112);
+}
+.interests .icon-box {
+    /*display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s;*/
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 2px #999;
+    background-color: rgb(6, 78, 136);
+    border: none;
+    border-radius: 15px;
+
+        /*  antigo */
+    box-sizing: content-box;
+    height: auto;
+    line-height: 1;
+    padding: 15px 20px;
+    width: auto;
+    display: inline-block;
+}
+  
+
+  
+
+  
