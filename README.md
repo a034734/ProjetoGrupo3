@@ -16,7 +16,7 @@ Windows
 
 4º Usar o link dado na linha de comandos e executa-lo num browser;
 
-5º Colocar "/home" à frente do link dado para acederem à Pagina Principal
+5º Colocar "/home" à frente do link dado para acederem à Pagina Principal, para acerederem as outras páginas basta navegar pela Navbar. 
 
 Para quaiquer dúvidas na instalação do Django/Python/Virtual Environment:
 https://djangoforbeginners.com/initial-setup/
