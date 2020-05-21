@@ -14,7 +14,7 @@ Windows
 
 3º Para executar o Projeto, entrar na respetiva pasta e inserir o código: python manage.py runserver;
 
-4º Usar o link dado na linhas de comandos e executa-lo num browser;
+4º Usar o link dado na linha de comandos e executa-lo num browser;
 
 5º Colocar "/home" à frente do link dado para acederem à Pagina Principal
 
