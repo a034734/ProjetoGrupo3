@@ -69,6 +69,9 @@ https://www.python.org/downloads/
 Para aceder ao site, use o link com o adicional /home
 Exemplo: http://127.0.0.1:8000/home/
 
+## Para mais quaisquer dúvidas sobre a instalação aceda a este vídeo:
+        https://www.youtube.com/watch?v=FTgqmgREsCQ
+
 ## Objetivo:
 O site This or That tem como principal objetivo a construção de um jogo em que o utilizador escolha a imagem que prefere entre duas oferecidas. O site tem tanto jogos criados pelos criadores, tanto jogos criados pelos utilizadores (como fossem jogos da comunidade). A plataforma é simples e facíl de utilizar, possibilitanto o utilizador jogar sem dificuldades.
 
