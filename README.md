@@ -67,6 +67,7 @@ https://www.python.org/downloads/
     Starting development server at http://127.0.0.1:8000/
 
 Para aceder ao site, use o link com o adicional /home
+
 Exemplo: http://127.0.0.1:8000/home/
 
 ## Para mais quaisquer dúvidas sobre a instalação aceda a este vídeo:
