@@ -40,7 +40,7 @@ https://www.python.org/downloads/
 
 1º Download da pasta "mysite", que está localizada na home deste projeto do GitHub, para instalar, clique no botão "Clone or download" e selecione a opção "Download ZIP"
 
-2º Colocar a pasta no mesmo sítio da Virtual Env, ou seja, C:\Users\(nome do utilizador)
+2º Colocar a pasta no mesmo sítio da Virtual Env, ou seja, C:\Users\\(nome do utilizador)
 
 3º Entrar no diretório "mysite":
     
