@@ -16,3 +16,10 @@
 .h1 {
     text-align: center;
 }
+
+.texto {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+}

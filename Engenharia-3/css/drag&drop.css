@@ -11,22 +11,12 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /*display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;*/
-}
-
-main{
-   display: -webkit-box;
+  display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-    
 }
 
 .upload {
@@ -43,8 +33,6 @@ main{
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
   opacity: 0;
-
-  
 }
 .upload .upload-files header {
   background: #1e273d;;
@@ -407,4 +395,6 @@ main{
     height: 100%;
   }
 }
+
+
 
