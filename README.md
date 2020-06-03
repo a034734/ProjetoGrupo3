@@ -74,7 +74,8 @@ Exemplo: http://127.0.0.1:8000/home/
         https://www.youtube.com/watch?v=FTgqmgREsCQ
 
 ## Objetivo:
-O site This or That tem como principal objetivo a construção de um jogo em que o utilizador escolha a imagem que prefere entre duas oferecidas. O site tem tanto jogos criados pelos criadores, tanto jogos criados pelos utilizadores (como fossem jogos da comunidade). A plataforma é simples e facíl de utilizar, possibilitanto o utilizador jogar sem dificuldades.
+O site This or That tem como principal objetivo a construção de um jogo em que o utilizador escolha a imagem que prefere entre duas oferecidas.
+ O site oferece jogos oficiais e jogos criados pelos utilizadores (como fossem jogos da comunidade). A plataforma é simples e fácil de utilizar, possibilitando o utilizador jogar sem dificuldades.
 
 ## Ferramentas de Trabalho:
 ### Editor de código fonte:
