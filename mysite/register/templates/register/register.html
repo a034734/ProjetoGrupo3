@@ -3,7 +3,7 @@
 {% block content %}
 {% load static %}
 
-{% block title %}Create an Account{% endblock %}
+
 {% load crispy_forms_tags %}
 
   <link rel="stylesheet" href="{% static 'main/css/login.css'%}">
@@ -16,7 +16,7 @@
             <!--Header-->
             <div class="text-center">
               <h3 class="white-text">
-              <i class="fa fa-user white-text"></i> Register</h3>
+              <img src="{% static 'main/img/register.png' %}" class="card-img-top mx-auto d-block" style="width: 70%;" alt="ThisorThat">
               <hr class="hr-light">
             </div>
             <!--Body-->
@@ -39,4 +39,4 @@
         </div>
       </main>
 
-{% endblock %}
+{% endblock content %}

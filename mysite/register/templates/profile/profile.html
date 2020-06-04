@@ -1,0 +1,57 @@
+{% extends "main/base.html"  %}
+{% load crispy_forms_tags %}
+{% block content %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'main/css/profile.css'%}">
+<main>
+        <div class="container">
+            <section id="about" class="about">
+                <div class="card border-0 shadow my-5">
+                        <img src="{% static 'main/img/profile.png' %}" class="card-img-top mx-auto d-block" style="width: 40%;" alt="ThisorThat">
+                        <hr class="hr-light">
+                        <div class="user-profile">
+                            <img src="{{ user.profile.image.url }}">
+                            <div class="user-details">
+                              <h2>{{ user.username}}</h2>
+                              <p>{{ user.email }}</p>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="count-box">
+                                        <i class="fa fa-gamepad"></i>
+                                        <span data-toggle="counter-up">232</span>
+                                        <p>Games played</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                                    <div class="count-box">
+                                        <i class="fa fa-star"></i>
+                                        <span data-toggle="counter-up">56000</span>
+                                        <p>Max Score</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                                    <div class="count-box">
+                                        <i class="fa fa-puzzle-piece"></i>
+                                        <span data-toggle="counter-up">3</span>
+                                        <p>Created Games</p>
+                                    </div>
+                               </div>
+                            </div>
+                            <form method="POST" class="form-group" enctype="multipart/form-data">
+                              {% csrf_token %}
+                                <fieldset class="form-group">
+                                  {{ upd_form|crispy }}
+                                  {{ pf_form|crispy }}
+                                </fieldset>
+                                <div class="form-group">
+                                  <button class="btn btn-outline-success" type="submit" name="button">Update</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+{% endblock content %}
