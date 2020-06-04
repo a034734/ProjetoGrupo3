@@ -29,14 +29,16 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <a href="{% url 'home' %}" class="nav-item nav-link">Home</a>
-                    <a href="{% url 'play' %}" class="nav-item nav-link">Oficial Games</a>
+                    <a href="{% url 'play' %}" class="nav-item nav-link">Official Games</a>
+                    <a href="{% url 'user_games' %}" class="nav-item nav-link">User Games</a>
                     <a href="{% url 'find' %}" class="nav-item nav-link">Find People !</a>
-                    <a href="scoreboards.html" class="nav-item nav-link">Scoreboards</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="{% url 'scoreboard' %}" class="nav-item nav-link">Scoreboards</a>
+                    <a href="{% url 'about' %}" class="nav-item nav-link">About</a>
                 </div>
                 <div class="navbar-nav ml-auto">
                   {% if user.is_authenticated %}
-                  <a class="nav-item nav-link" href="profile.html">Profile</a>
+                  <a class="nav-item nav-link" href="{% url 'game-create' %}">Create Game</a>
+                  <a class="nav-item nav-link" href="/profile">Profile</a>
                   <a class="nav-item nav-link" href="/logout">Logout</a>
                   {% else %}
                   <a href="{% url 'login' %}" class="nav-item nav-link">Login</a>

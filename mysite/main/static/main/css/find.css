@@ -16,3 +16,31 @@
 .h1 {
     text-align: center;
 }
+
+.texto {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.table{
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.media {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.media-body {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+a {
+    color: white;
+}

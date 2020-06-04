@@ -1,0 +1,24 @@
+{% extends "main/base.html"  %}
+{% block content %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'main/css/profile.css'%}">
+    <main>
+      <div class="container">
+        <section id="about" class="about">
+          <div class="card border-0 shadow my-5">
+            <form method="POST" class="form-group" enctype="multipart/form-data">
+              {% csrf_token %}
+              <fieldset class="form-group">
+                <h2> Are you sure you want delete the post "{{ object.title }}" </h2>
+              </fieldset>
+              <div class="form-group">
+                <button class="btn btn-outline-danger" type="submit" name="button">Yes</button>
+                <button class="btn btn-outline-secundary" href=" {% url 'game-detail' object.id %} ">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+{% endblock content %}

@@ -1,81 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="utf-8">
-        <title>This or That</title>
-        <link rel="stylesheet" href="css/about.css">
-        <link rel="stylesheet" href="css/navbar.css">
-      
-        <script src="js/navbar.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</head>
+{% extends "main/base.html" %}
+{% block content %}
+{% load static %}
 
-<body>
-  <div class="page-wrapper chiller-theme toggled">
-    <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
-      <i class="fas fa-bars"></i>
-    </a>
-    <nav id="sidebar" class="sidebar-wrapper">
-      <div class="sidebar-content">
-        <div class="sidebar-brand">
-          <a href="homepage.html">This or That</a>
-          <div id="close-sidebar">
-            <i class="fas fa-times"></i>
-          </div>
-        </div>
-        <div class="sidebar-header">
-          <div class="user-pic">
-            <img class="img-responsive img-rounded" src="img/teste.jpg"
-              alt="User picture">
-          </div>
-          <div class="user-info">
-            <span class="user-name">Prof
-              <strong>Geleia</strong>
-            </span>
-          </div>
-        </div>
-        <!-- sidebar-search  -->
-        <div class="sidebar-menu">
-          <ul>
-            <li>
-              <a href="homepage.html">
-                <i class="fas fa-home"></i>
-                <span>Homepage</span>
-              </a>
-            </li>
-            <li>
-              <a href="find.html">
-                <i class="fas fa-users"></i>
-                <span>Find People !</span>
-              </a>
-            </li>
-            <li>
-              <a href="about.html">
-                <i class="fas fa-search"></i>
-                <span>About</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- sidebar-content  -->
-      <div class="sidebar-footer">
-        <a href="#">
-          <i class="fa fa-cog"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-power-off"></i>
-        </a>
-      </div>
-    </nav>
-    <!-- sidebar-wrapper  -->
-    <main class="page-content">
-        <div class="container-fluid">
-            About
-        </div>
-    </main>
-    <!-- page-content" -->
-</div>
-<!-- page-wrapper -->
-<script src="js/navbar.js"></script>
-</body>
+    <link rel="stylesheet" href="{% static 'main/css/navbar.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/find.css'%}">
+
+    <!-- MAIN -->
+    <main>
+            <div class="container">
+                <div class="card border-0 shadow my-5">
+                    <hr class="hr-light">
+                    <img src="{% static 'main/img/about.png' %}" class="card-img-top mx-auto d-block" style="width: 20%;" alt="ThisorThat">
+                    <hr class="hr-light">
+                    <h4 class="texto">
+                      O site This or That tem como principal objetivo a construção de um
+                      jogo em que o utilizador escolha a imagem que prefere entre duas oferecidas.
+                      O site oferece
+                      jogos oficiais e jogos criados pelos utilizadores
+                      (como fossem jogos da comunidade). A plataforma é simples e fácil de utilizar,
+                      possibilitando o utilizador jogar sem dificuldades.
+                    </h4>
+                </div>
+              </div>
+        </main>
+
+{% endblock %}

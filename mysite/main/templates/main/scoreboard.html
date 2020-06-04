@@ -1,0 +1,50 @@
+{% extends "main/base.html" %}
+{% block content %}
+{% load static %}
+
+    <link rel="stylesheet" href="{% static 'main/css/navbar.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/find.css'%}">
+
+    <!-- MAIN -->
+    <main>
+    <div class="container">
+        <div class="card border-0 shadow my-5">
+              <hr class="hr-light">
+              <img src="{% static 'main/img/score.png' %}" class="card-img-top mx-auto d-block" style="width: 40%;" alt="ThisorThat">
+              <hr class="hr-light">
+              <hr class="hr-light">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Pontos</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Chinoca</td>
+                    <td>100</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Póvoas</td>
+                    <td>50</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Sheila</td>
+                    <td>30</td>
+
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+    </main>
+
+{% endblock %}

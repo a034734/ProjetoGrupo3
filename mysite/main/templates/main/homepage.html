@@ -24,9 +24,9 @@
                             <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                             <a href="{% url 'find' %}" class="btn mx-5" role="button" aria-pressed="true">Find People !</a>
                             <hr class="hr-light">
-                            <a href="{% url 'play' %}" class="btn mx-5" role="button" aria-pressed="true">Play</a>
+                            <a href="{% url 'play' %}" class="btn mx-5" role="button" aria-pressed="true">Official Games</a>
                             <hr class="hr-light">
-                            <a href="#" class="btn mx-5" role="button" aria-pressed="true">Scoreboards</a>
+                            <a href="{% url 'user_games' %}" class="btn mx-5" role="button" aria-pressed="true">Community Games</a>
                         </div>
                         <!--Grid column-->
                         </div>
@@ -40,4 +40,6 @@
             </div>
           </div>
     </main>
+
+
 {% endblock %}
